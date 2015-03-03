@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>js-Tpl Example</title>
+</head>
+<body>
+<div id='r'></div>
+<script src="../index.js"></script>
+<script>
+var str='<?js if(it.init){?><span class="name">@{it.name}</span><?js }?>';
+document.getElementById('r').innerHTML(jsTpl.render(str,{name:'abc',init:true}));
+</script>
+</body>
+</html>
