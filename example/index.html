@@ -5,10 +5,10 @@
 </head>
 <body>
 <div id='r'></div>
-<script src="../index.js"></script>
+<script src="../../tpl/index.js"></script>
 <script>
 var str='<?js if(it.init){?><span class="name">@{it.name}</span><?js }?>';
-document.getElementById('r').innerHTML(jsTpl.render(str,{name:'abc',init:true}));
+console.log(jsTpl.render(str,{name:'abc',init:true}));
 </script>
 </body>
 </html>
