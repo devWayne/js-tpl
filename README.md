@@ -1,4 +1,4 @@
-js-tpl [![Build Status](https://travis-ci.org/devWayne/js-tpl .svg?branch=master)](https://travis-ci.org/devWayne/js-tpl )
+js-tpl [![Build Status](https://travis-ci.org/devWayne/js-tpl.svg?branch=master)](https://travis-ci.org/devWayne/js-tpl )
 ============
 > Javascript Template Engine
 
